@@ -16,28 +16,16 @@ main {
 
 .title {
   text-align: center;
-  margin-top: 9em;
 }
 
 
-.lovers-container {
+.clock-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  overflow-y: clip;
-  margin-top: 10em;
 }
 
-.lover {
-  letter-spacing: .1rem;
-  font-size: .9em;
-  width: 54vh;
-  height: 57vh;
-  /*border: 1px solid black;*/
-  overflow-y: clip;
-  text-align: justify;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.clock {
+  line-height: .6;
 }
