@@ -100,7 +100,6 @@ const hoursSlopeCorrection = () => {
 }
 
 const createHands = (x1, y1, x2, y2, dx, dy, symChar) => {
-  console.log(symChar)
   let sx = (x1 < x2) ? 1 : -1;
   let sy = (y1 < y2) ? 1 : -1;
   let err = dx - dy;
