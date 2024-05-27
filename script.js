@@ -125,8 +125,8 @@ const fillArray = () => {
   on = []
   createCircle(CENTER_X, CENTER_Y, RADIUS);
   createCenter();
-  createHands(CENTER_X, CENTER_Y, hoursEndPoint().x, hoursEndPoint().y, hoursSlopeCorrection().dx, hoursSlopeCorrection().dy, '@');
-  createHands(CENTER_X, CENTER_Y, minutesEndPoint().x, minutesEndPoint().y, minutesSlopeCorrection().dx, minutesSlopeCorrection().dy, '*');
+  createHands(CENTER_X, CENTER_Y, hoursEndPoint().x, hoursEndPoint().y, hoursSlopeCorrection().dx, hoursSlopeCorrection().dy, '*');
+  createHands(CENTER_X, CENTER_Y, minutesEndPoint().x, minutesEndPoint().y, minutesSlopeCorrection().dx, minutesSlopeCorrection().dy, '"');
   createHands(CENTER_X, CENTER_Y, secondsEndPoint().x, secondsEndPoint().y, secondsSlopeCorrection().dx, secondsSlopeCorrection().dy, '`');
 }
 
