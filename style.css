@@ -21,12 +21,23 @@ main {
 
 .clock-container {
   display: flex;
-  width: 100%;
+  width: 80%;
+  height: 80%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .clock {
+  font-size: 1vh;
   line-height: .6;
+}
+
+@media all and (max-width: 800px) {
+  .clock {
+    font-size: 1vw;
+  }
+  .clock-container {
+    flex-direction: column;
+  }
 }
